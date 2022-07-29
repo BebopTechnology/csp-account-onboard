@@ -26,6 +26,6 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
           role-duration-seconds: 900
           
-      - name: Verify Access
-        id: verify
-        run: aws sts get-caller-identity
+      - name: Publish to S3
+        id: publish
+        run: aws s3 cp aws/cloudformation.yaml s3://bebop-oneclick-onboarding/cloudformation.yaml
