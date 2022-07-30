@@ -1,4 +1,5 @@
-## Bebop One-Click Onboarding
+## BeBop CSP Onboarding
+
 #### AWS
 Deploy the necessary IAM Roles and Polcies by clicking the Lauch Stack button below. Please review the CloudFormation Template here before deploying as it creates IAM resources
 
